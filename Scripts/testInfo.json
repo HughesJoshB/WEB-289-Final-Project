@@ -1,0 +1,32 @@
+//** test json for Bay Pirate Website
+//** Josh Hughes
+//** Feb 15th, 2018
+
+{
+ {
+  "headers":{
+    "date": "Date",
+	"time": "Time",
+	"windSpeed": "Wind Speed",
+	"waterTemp": "Water Temp",
+	"waveHeight": "Wave Height",
+	"wavePeriod": "Wave Period",
+	},
+	
+  "rows":[{
+	"date": "Feb 15th, 2018",
+	"time": "0800",
+	"windSpeed": "12knts",
+	"waterTemp": "73.2 degrees",
+	"waveHeight": "4ft",
+	"wavePeriod": "11 secs",}
+	{
+	"date": "Feb 15th, 2018",
+	"time": "0830"
+	"windSpeed": "18knts",
+	"waterTemp": "73.2 degrees",
+	"waveHeight": "6ft",
+	"wavePeriod": "11 secs",}
+	],
+	}
+	}
