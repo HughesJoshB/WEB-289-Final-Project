@@ -1,94 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bay Pirate Fishing Team</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="./Styles/Cyborg/bootstrap.css" rel="stylesheet" />
-	<link href="./Styles/responsiveNavMenu.css" rel="stylesheet" />
+<!--#include virtual="common/doucment_head.html"-->
 	<style>
 	body, html{
 		height: 75%;
 		}
-	
-	img{display: block;
-		margin: auto;
-		width:50%;
-		}
+	.card-img-top{height: 550px;}
 	</style>
-</head>
+
 <body>
-	<img src="./picts/logo2.png" class="img-responsive">	
-	<p id="date"></p>
-	<script>
-		document.getElementById("date").innerHTML = Date();
-	</script>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-		<li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Team<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-			<li><a href="home.html">About Us</a></li>
-            <li><a href="team_members.html">Team Members</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tournaments<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="tournaments.html">Upcoming</a></li>
-            <li><a href="previous_results.html">Previous Results</a></li>
-          </ul>
-        </li>
-        <!-- <li><a href="sponsors.html">Sponsors</a></li> -->
-        <li><a href="pictures_videos.html">Media</a></li>
-		
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      
-	  
-		<li><a href="https://www.facebook.com/BayPirateFishingTeam/" class="fa fa-facebook" target="_blank"></a></li>
-		<li><a href="https://twitter.com/BayPirateFishin" class="fa fa-twitter" target="_blank"></a></li>
-		<li><a href="https://www.instagram.com/bay_pirate_fishing_team/" class="fa fa-instagram" target="_blank"></a></li>
-		</ul>
-    </div>
-  </div>
-</nav>
+	
+<!--#include virtual="common/nav_menu.html"-->
+<!--#include virtual="common/social_media.html"-->
+
+
 <div class="container">
-	<!-- Intro Content -->
-      <div class="row">
-        <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="picts/sideView.jpg" alt="" >
-        </div>
-        <div class="col-lg-6">
-          <h2></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
-        </div>
-      </div>
+	
       <!-- /.row -->
 	  <!-- Team Members -->
-      <h2>Our Team</h2>
+      
 	  <div class="row">
+		<div class="col-lg-6 mb-4">
+          <div class="card h-100 text-center">
+		    <img class="card-img-top" src="picts/sideView.jpg" alt="Bay Pirate from the Side" style="width:100%; padding-top:75px;" />
+			<div class="card-body">
+			 <h4 class="card-title">The Bay Pirate</h4>
+			 <h6 class="card-subtitle mb-2 text-muted">2005 34' Yellowfin</h6>
+			 <p class="card-text">Powered by triple 300hp Yamaha's and a 3-owner boat we knew we were going to have some cosmetic 
+					work to be done, but only 100hrs on the new motors along with new fuel tanks.</p>
+					<p> In 2015, we contacted Live Wire Electronics in Myrtle Beach, SC about getting the boat re-wired. 
+					We decided to get a new sound system via J.L. Audio, new gps and sonar from Garmin Marine. Along with 
+					new VHF radio's from iCom America and a Fusion Entertainment receiver.</p>
+					<p> In the spring of 2017, we took the Yellowfin to Wrap's Ink in Murrells Inlet, SC. We had them design
+					the new wrap, and remove the previous owner's PAST DUE logos.</p>
+			</div>
+		  </div>
+		</div>
         <div class="col-lg-6 mb-4">
           <div class="card h-100 text-center">
-		    <img class="card-img-top" src="picts/Frollie.jpg" alt="William 'Frollie' Hughes" />
+		    <img class="card-img-top" src="picts/Frollie.jpg" alt="William 'Frollie' Hughes" style="width:100%; padding-top:75px;" />
 			<div class="card-body">
 			 <h4 class="card-title">William "Frollie" Hughes</h4>
 			 <h6 class="card-subtitle mb-2 text-muted">Captain</h6>
@@ -96,27 +46,27 @@
 			Isle Beach NC, he's always been on or near the water. Starting back in the 60's with surfing
 			the break at the pier the saltwater has been in his blood for a long time. He started honing his
 			king mackerel skills on the piers at Johnny Mercer and Crystal Pier on Wrightsville Beach. Back 
-			in the early 70's while in college and transfered that back to Ocean Isle pier when moved he moved back.
-			<p>Up until about 2000, then he started fishing with "Playin Hooky" fishing team in king mackerel touranments
+			in the early 70's while in college and transfered that back to Ocean Isle pier when moved he moved back to Brunswick County.
+			<p>Around 2000, he started fishing with "Playin Hooky" fishing team in king mackerel touranments
 			in the Southern Kingfish Association and the old US Anglers.
 			</p>
 			</div>
 		  </div>
 		</div>
-	
-	
+	  </div>
+	  <div class="row">
 		<div class="col-lg-6 mb-4">
           <div class="card h-100 text-center">
-		    <img class="card-img-top" src="picts/JoshHughes.jpg" alt="Josh Hughes" />
+		    <img class="card-img-top" src="picts/JoshHughes.jpg" alt="Josh Hughes" style="width:100%;"/>
 			<div class="card-body">
 			 <h4 class="card=title">Josh Hughes</h4>
 			 <h6 class="card-subtitle mb-2 text-muted">Co-Captain, Social media and Website designer</h6>
-			<p class="card_text">Josh Hughes born and raised in Ocean Isle also, son of "Frollie" came into fishing in the late
-			2000's mainly fun fishing on their 19ft Pioneer. After catching a couple decent kings he asked about
+			<p class="card_text">Josh Hughes, born and raised in Ocean Isle also, son of "Frollie" came into fishing in the late
+			2000's mainly fun fishing on their 19ft Pioneer. After catching a couple decent kings, he asked about
 			fishing tournaments. The first tournament that they entered was the U.S. Open and caught a 27.8lb fish that 
 			ended up tieing them for 55th place.
 			</p>
-			<p>From there his love for the saltwater has been multipled with wanting to 
+			<p>From there, his love for the saltwater has been multipled with wanting to 
 			be on the water in touranments looking for big kings. He is our social media correspondent, web page developer and video 
 			editor, and jack of all trades on the boat.
 			</p>
@@ -125,44 +75,47 @@
 		</div>
 		<div class="col-lg-6 mb-4">
           <div class="card h-100 text-center">
-		    <img class="card-img-top" src="picts/top3fish.jpg" alt="Patti Hughes" />
+		    <img class="card-img-top" src="picts/top3fish.jpg" alt="Patti Hughes" style="width:100%"/>
 			<div class="card-body">
 			 <h4 class="card=title">Patti Hughes</h4>
 			 <h6 class="card-subtitle mb-2 text-muted">Lady Angler, photographer, videographer</h6>
 			<p class="card_text">Patti is our lady angler, on board photographer, videographer. Most times she is found behind the camera getting those
-			high quality photos. When the bite is going on she will help clear lines and occasionally fight a fish while everyone is tied up.
-			If not on the boat she is watching her grandchildren while Josh fishes, and brings them to weigh in to see what was caught that day.
+			high quality photos. When the bite is going on, she will help clear lines and occasionally fight a fish while everyone is tied up.
+			If not on the boat, she is watching her grandchildren while Josh fishes, and brings them to weigh in to see what was caught that day.
+			She's our all-around helper and a professional accountant owning her own business since 1983.
 			</p>
 			</div>
 	      </div>
 		</div>
+		</div>
+		<div class="row">
 		<div class="col-lg-6 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="picts/JoshBenton.jpg" alt="Josh Benton">
+            <img class="card-img-top" src="picts/JoshBenton.jpg" alt="Josh Benton" style="width:100%"/>
             <div class="card-body">
               <h4 class="card-title">Josh Benton</h4>
               <h6 class="card-subtitle mb-2 text-muted">Crew</h6>
-              <p class="card-text">Born and raised in Whiteville, NC Josh Benton has a draw to the saltwater that any weekend he's not
-			working at OVM Finicial and taking care of his little one. He can be found in his bay boat chasing drum, trout or flounder.
-			Having played college baseball with Josh Hughes they had stayed in touch over the years and talked about
-			fishing. After doing some near-shore fishing with his dad and family members he wanted to do more offshore fishing.
-			With getting in contact with Josh Hughes he joined the team in 2013. With joining the team he has kept the team laughing
-			wether on days where the bite is going off or slow days. If you get a chance ask him about his "Cobia stories" from
-			fishing with us.</p>
+              <p class="card-text">Born and raised in Whiteville, NC, Josh Benton has a draw to the saltwater so much, that any weekend he's not
+			working at OVM Finicial and taking care of his little boy. He can be found in his bay boat chasing drum, trout or flounder.
+			During college, he played baseball with Josh Hughes they had stayed in touch over the years and talked about
+			fishing. After doing some near-shore fishing with his dad and family members, he wanted to do more offshore fishing.
+			After much discussion with Josh Hughes, he joined the team in 2013. Since joing the team, his enthusiasm and humor, keeps the team laughing
+			wether on days where the bite is a fast or slow bite. There's always a "Rember this" moment.  If you get a chance, ask him about his "Cobia stories" from
+			fishing with our team.</p>
             </div>
           </div>
         </div>
 	
 	    <div class="col-lg-6 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="picts/JonSweeney.jpg" alt="Jon Sweeney" />
+            <img class="card-img-top" src="picts/JonSweeney.jpg" alt="Jon Sweeney" style="width:100%"/>
 			<div class="card-body">
               <h4 class="card-title">Jon Sweeney</h4>
               <h6 class="card-subtitle mb-2 text-muted">Crew</h6>
-              <p class="card-text">Jon Sweeney aka "Swabby" joined the team in 2016, with working with Josh Benton at OVM Finicial they where always talking fishing
-				whether inshore or offshore. Jon brings a wealth of knowledge from his days of working on head boats bottom fishing. When 
-				on the boat you can find him with the cast net early in the mornings looking for bait, eager to be trying to jig up bait
-				in the area we are fishing, or helping set the spread of baits out. When not on the boat with us, he can be found chasing drum, trout,
+              <p class="card-text">Jon Sweeney aka "Swabby" joined the team in 2016. Jon workes with Josh Benton at OVM Finicial, where you can find them talking fishing
+				whether inshore or offshore. Jon brings a wealth of knowledge from his days of working on head boats bottom fishing. On 
+				the boat you can find him with the cast net early in the mornings looking for bait or eager to be trying to jig up bait
+				in the area we are fishing, and keeping the bait spread free of tangles. When not on the boat, he can be found chasing drum, trout,
 				flounder or on the softball field.
 			  </p>
 			</div>
@@ -173,19 +126,6 @@
 	  </div>
 </div>
 	
-<footer class="container-fluid bg-4 text-center">
-		<a href="mailto:joshhughes81@hotmail.com">joshhughes81@hotmail.com</a>
-		<i> Copyright&nbsp;&copy;&nbsp;2018&nbsp;Bay&nbsp;Pirate&nbsp;Fishing&nbsp;Team</i>
-		
-	</footer>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106865404-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-106865404-1');
-</script>
+<!--#include virtual="common/footer.html"-->
 </body>
 </html>

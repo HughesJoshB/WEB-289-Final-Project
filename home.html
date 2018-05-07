@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="common/doucment_head.html"-->
+	<style>
+	body, html{
+		height: 75%;
+		}
+	<!--.carousel-inner img{
+		margin: auto;
+		width: 100%;
+		position: relative;
+		} -->
+	
+	#map {
+        width: 50px;
+        height: 150px;
+        
+		border: solid red;
+      }
+	.bg-1 { background-color: #0074D9;
+	       color: black;
+		   }
+	 .bg-2 { background-color: #AAA;
+			color: #0074D9;
+			}
+
+	h5, h6 {text-align: center;}
+	</style>
+
+<body>
+	
+	<!--#include virtual="common/nav_menu.html"-->
+	<!--#include virtual="common/social_media.html"-->
+	
+	 
+		
+ 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  
+    </ol> 
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+	    <img src="./picts/mahi.jpg" alt="Running Down the Waterway">
+      </div>
+      <div class="item">
+       	<img src="./picts/boatWrap.jpg" alt="Weighing it at Fall Brawl">
+      </div>
+      <div class="item">
+        <img src="./picts/moreheadcity.jpg" alt="Running in the Ocean with a Red Sky">
+      </div>
+	</div>
+<!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+	<div class="container-fluid bg-1">
+	
+		<h3>About Us</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<p> Born and raised in Ocean Isle Beach, we've always been drawn to the ocean, and all of it's
+					activities.	Both the Captain and Co-Captain grew up surfing the local breaks on Ocean Isle. We
+					fished local in-shore ponds, the waterway,and piers on days where the surf wasn’t churning out
+					ridable waves. In the 1970's, Captain William "Frollie" Hughes moved to Wrightsville Beach to attend
+					colege at UNCW. He frequented the piers, and statred fising for kings after seeing the anchor rod and
+					clip method of fishing. Between classes, surfing and playing baseketbal, this was the place he preferred 
+					to fish.</p>
+				</div>
+				<div class="col-sm-4">
+					<p> After fishing for 6 years, in the 23' and under class, with Teak Hemphill on the Playing Hooky,
+					a boat was purchased, and Dad an son began fishing some tournaments and fishing offshore. Using a 19'Pioneer
+					with a 150 hp Yamaha was a challenge, but we entered some of the smaller local events. During the Octboer beach
+					bite, we were fun fishing the Long Bay area of Southeastern, NC. The U.S. Open King Mackerel tournament, which normally
+					pulls close to 400 boats, was going on but we had never entered it. While in the midst of these boats, we caught and
+					released a 40+ pound fish, and were "hooked". Instantly, we both agreed we would fish some of the bigger events
+					the next year. In the U.S. Open the next year we caught a 27.10 lb king that tied us for 55th place.</p>
+				</div>
+				<div class="col-sm-4">		
+					<p>We fished the Pioneer for several years. In 2010, we decided to fish the SKA Division 9 Tournament Trail and
+					began scouring ads and post for a bigger boat to fish the open class. Our 29ft Yellowfin did us well for 3 years.
+					We fished all of Division 9 Tournaments, and some of the SC Division tournaments. After rigging out the boat, we entered
+					the East Coast Got Em On, and placed 14th. We continued to catch fish adn win a few smaller prizes. Just before the 2014 
+					season began we sold the 29' Yellowfin. Captain "Frollie" dedicated himself to finding a new boat before the first tournament
+					of the year, and one week before he found our current boat, a 34' Yellowfin, powered by tripe 300hp Yamaha's. We've
+					been blessed to fish from Morehead City, NC to Charleston, SC in local tournaments and the SKA Division 9 and 3 trails.
+					In 2012, we fished the SKA National Championship in Biloxi, MS, and the 2016 in Morehead City, NC.</p>
+				</div>
+			</div>
+	</div>
+	
+		<h3> Current Weather</h3>
+			<h5>Wrightsville Beach, NC Station #8658163</h5>
+			<h6>Data Provided from N.O.A.A.'s database</h6>
+	
+	<div class="container">
+	 
+		<h6>Wind Conditions</h6>
+	 <div class="table-responsive">
+				
+		<table class="table table-bordered table-striped">
+			
+		   <thead>
+			<tr>
+			  <th>Date & Time</th>
+			  <th>Wind Speed</th>
+			  <th>Wind Gust</th>
+			  <th>Wind Direction</th>
+			  <th>Wind Compass Direction</th>
+			  <th>Water Temperature</th>
+			</tr>
+		  </thead>
+		  <tbody id="weather_data">
+			
+		
+			<!-- <script src="Scripts/testRunsofJS.js"></script> -->
+			<!-- <script src="Scripts/windSpeed.js"></script> -->
+			<script src="Scripts/combine.js"></script>
+		  </tbody>
+		</table>
+		</div>	
+    Wind Speed and Gust is in Knots		
+	 </div>
+	
+	
+	
+
+ <!--#include virtual="common/footer.html"-->
+</body>
+
+</html>
