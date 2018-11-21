@@ -44,12 +44,12 @@ $(document).ready(function(){
 				//build table here!!!!!!!!!!!!-------------
 				combine(tempData, windData);
 				var weather_data = combine;
-				// print first entrey
+				// print first entry
 				// console.log(windData.data[0].t);
 				$.each(windData.data, function(key, value){
 					
 					weather_data += '<tr>';
-					weather_data += '<td>' + value.t + '</td>';  // date an time
+					weather_data += '<td>' + value.t + '</td>';  // date an time (time is restarted at 8pm EST/ 12AM GMT)
 					weather_data += '<td>' + value.s + '</td>';  // wind speed in Knots 
 					weather_data += '<td>' + value.g + '</td>';  // wind gust in Knots 
 					weather_data += '<td>' + value.dr + '</td>'; // wind direction NSEW values 
